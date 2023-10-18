@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#maintitle, #menu-header {
+  font-size: 60px;
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+#menu-header{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: #792106; 
+  display: flex;
+  justify-content: center; 
+}
+
+#header, #navbar {
+  background-color: #792106;
+  padding: 20px; 
+  color: white;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#infos{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#type{
+  background-color: #f1dfda;
+  display: flex;
+  justify-content: center; 
+  margin: 55px 160px 55px 160px; 
+}
+
+#phone, #address, #navitems {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+}
+#navitems {
+  font-size: 24px;
+  padding: 10px; 
+  text-decoration: none; 
+}
+
+
+#sidebox, #midbox, #rightbox {
+  background-color: #f1dfda;
+  width: 470px; 
+  padding: 15px;
+  height: 470px;
+}
+
+#hours, #order-message, #hours-title, #menu-title, #order-title, #menu-message, #type-title {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #792106;
+  
+}
+
+#type-title{
+  margin-top: 25px;
+  margin-bottom: 25px; 
+  font-size: 24px; 
+  color: black;
+}
+
+#type-title:hover{
+  color: #792106; 
+}
+
+
+#hours-title, #menu-title, #order-title{
+  font-size: 34px;
+  font-weight: 120%;
+}
+#hours, #order-message {
+  font-size: 22px
+}
+
+#menu-message{
+  font-size: 18px; 
+}
+
+#foodimg1, #foodimg2, #foodimg3{
+  width: 200px;
+  margin: auto; 
+  
+}
+
+#foodimg2{
+  margin-bottom: 46px; 
+}
+
+#btn {
+  background-color: #792106;
+  color: white;
+  padding: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none; 
+  text-decoration: underline;
+}
+
+#btn:hover {
+  background-color: #e6c1b7;
+  color: #792106;
+  cursor: pointer;
+}
+
+#navitems:hover {
+  color: #e6c1b7;
+  cursor: pointer;
+}
