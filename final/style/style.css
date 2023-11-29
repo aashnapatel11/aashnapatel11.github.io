@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #66999B;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  color: white;
+}
+
+#title{
+  font-size: 50px; 
+  font-weight: 800em; 
+  text-align: center;
+}
+
+#desc {
+  margin: 50px 100px 50px 100px;
+  animation: shift 10s infinite linear; 
+  background-color: #1b2333;
+  padding: 25px;
+  border-radius: 25px;
+  font-size: 28px; 
+  text-align: center; 
+}
+
+#desc2{
+  color: #1b2333;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 15%; 
+  margin-right: 15%; 
+  font-weight: 400em;
+}
+
+@keyframes shift {
+  0% {color: white;}
+  25% {color: pink;}
+  50% {color: #ffde5a;}
+  75% {color: #eb8946;}
+}
+
+#container {
+text-align: center; 
+}
+
+#seasons {
+  font-size: 38px; 
+  margin: auto; 
+  text-align: center;
+}
+
+.season-icon {
+  width: 100px; 
+  margin: 20px 40px 40px 20px;
+  padding-left: 30px;
+  padding-right: 30px; 
+  animation: rotate 2s infinite linear;
+  
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg); 
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+#spring-label:hover{
+  color: pink;
+  cursor: pointer;
+  scale: 1.2;
+}
+#summer-label:hover{
+  color: #ffde5a;
+  cursor: pointer;
+  scale: 1.2;
+}
+#winter-label:hover{
+  color: #0061bd;
+  cursor: pointer;
+  scale: 1.2;
+}
+#fall-label:hover{
+  color: #eb8946;
+  cursor: pointer;
+  scale: 1.2;
+}
+

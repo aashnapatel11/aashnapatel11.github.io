@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style/fall.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@300&family=Lato:wght@300;400&family=Philosopher:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <button onclick="back()" id="season-change"> Change the season</button>
+
+  <h1 id="title"> Fall </h1>
+
+
+  <div id="clothing-box">
+    <h2 id="directions"> Select one top and one bottom by clicking "try it on" to test different outfit combinations! Or click on "learn more" to learn more about each clothing item. </h2>
+
+ 
+      <div id="container">
+        <div class="box">
+          <img class="top-img" src="img/tops/15.png"> 
+          <button onclick="tryontop('img/tops/15.png')"> Try it out! </button>
+          <button onclick="learn('img/tops/15.png')"> Learn more </button>      
+        </div>
+
+        <div class="box">
+          <img class="top-img" src="img/tops/10.png"> 
+          <button onclick="tryontop('img/tops/10.png')"> Try it out! </button>
+          <button onclick="learn('img/tops/10.png')"> Learn more </button>      
+        </div>
+
+        <div class="box">
+          <img class="top-img" src="img/tops/12.png"> 
+          <button onclick="tryontop('img/tops/12.png')"> Try it out! </button>
+          <button onclick="learn('img/tops/12.png')"> Learn more </button>      
+        </div>
+
+        <div class="box">
+          <img class="top-img" src="img/tops/11.png"> 
+          <button onclick="tryontop('img/tops/11.png')"> Try it out! </button>
+          <button onclick="learn('img/tops/11.png')"> Learn more </button>      
+        </div>
+    <div class="box">
+      <img class="bottom-img" src="img/bottom/1.png"> 
+      <button onclick="tryonbottom('img/bottom/1.png')"> Try it out! </button>
+      <button onclick="learn('img/bottom/1.png')"> Learn more </button>      
+    </div>
+
+    <div class="box">
+      <img class="bottom-img" src="img/bottom/2.png"> 
+      <button onclick="tryonbottom('img/bottom/2.png')"> Try it out! </button>
+      <button onclick="learn('img/bottom/2.png')"> Learn more </button>      
+    </div>
+
+    <div class="box">
+      <img class="bottom-img" src="img/bottom/3.png"> 
+      <button onclick="tryonbottom('img/bottom/3.png')"> Try it out! </button>
+      <button onclick="learn('img/bottom/3.png')"> Learn more </button>      
+    </div>
+
+        <div class="box">
+          <img class="bottom-img" src="img/bottom/7.png"> 
+          <button onclick="tryonbottom('img/bottom/7.png')"> Try it out! </button>
+          <button onclick="learn('img/bottom/7.png')"> Learn more </button>      
+        </div>
+
+        </div>
+
+
+    
+    </div>
+    
+
+</div>
+    
+
+
+    
+    
+  </div>
+
+  <div id="model-box">
+
+    <img id="top" src="img/tops/5.png"> 
+    <img id="bottom" src="img/bottom/5.png"> 
+    
+  </div>
+
+
+  <div id="popup">
+    <button id="close-popup" onclick="closepopup()"> Back </button>
+    <h2 id="popup-title"> Item Title </h2>
+    <img id="popup-img" src="img/tops/5.png"> 
+    <a id="popup-link" href="https://us.brandymelville.com/">This item is from Brandy Melville. Click here to shop. </a>
+  </div>
+
+
+  
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

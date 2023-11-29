@@ -1,6 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        FINAL
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@300&family=Lato:wght@300;400&family=Philosopher:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+
+  <h1 id="title"> Aashna's Closet </h1>
+  <h3 id="desc"> Welcome to Aashna's Closet! </h3>
+  <p id="desc2"> Here, you can find some of Aashna's clothes that she wears for different seasons. Click on the season to view Aashna's clothes for that season. </p>
+
+  <div id="container">
+
+    <table id="seasons">
+      <tr>
+        <td>
+            <p id="winter-label" onclick="newpage('winter')"> Winter </p>
+            <img onclick="newpage('winter')" class="season-icon" src="img/winter.png">
+        </td>
+
+        
+
+        <td>
+          <p id="spring-label" onclick="newpage('spring')"> Spring </p>
+            <img onclick="newpage('spring')" class="season-icon" src="img/spring.png">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p onclick="newpage('summer')" id="summer-label"> Summer </p>
+            <img onclick="newpage('summer')" class="season-icon" src="img/summer.png">
+        </td>
+
+        <td>
+          <p id="fall-label" onclick="newpage('fall')"> Fall </p>
+            <img class="season-icon" onclick="newpage('fall')" src="img/fall.png">
+        </td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
 </html>
