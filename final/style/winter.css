@@ -85,7 +85,7 @@ button:hover{
 }
 
 .box:hover {
-  transform: scale(1.05);
+  scale: 1.05;
 }
 
 .top-img, .bottom-img {
